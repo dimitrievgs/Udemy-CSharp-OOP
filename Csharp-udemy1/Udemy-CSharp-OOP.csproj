@@ -24,4 +24,8 @@
     <None Include="P3\P3T6.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="P4\" />
+  </ItemGroup>
+
 </Project>
