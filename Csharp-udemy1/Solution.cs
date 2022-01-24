@@ -10,26 +10,19 @@ using System.Globalization;
 
 public class Solution
 {
+	static string s = "d";
+
 	public static void Main(string[] args)
 	{
-		Random rand = new Random();
-		bool continueLoop = true;
-		while (continueLoop)
-        {
-			Console.WriteLine("Roll dice? (yes, no)");
-			string answer = Console.ReadLine();
-			if (answer.ToLower() == "yes")
-			{
-				int diceNumber = RollD6(rand);
-				Console.WriteLine($"New dice number is {diceNumber}");
-			}
-			else
-				continueLoop = false;
-        }
+		Console.WriteLine(s);
+		DoSmth();
+		Console.WriteLine(s);
+		
 	}
 
-	private static int RollD6(Random rand)
+	private static void DoSmth()
     {
-		return rand.Next(1, 7);
-    }
+		s = "dfdf";
+		Console.WriteLine(s);
+	}
 }
