@@ -10,6 +10,7 @@
     <Compile Remove="P2\P2T1.cs" />
     <Compile Remove="P2\P2T2.cs" />
     <Compile Remove="P2\P2T3.cs" />
+    <Compile Remove="P3\P3T1.cs" />
     <Compile Remove="P3\P3T4.cs" />
     <Compile Remove="P3\P3T5.cs" />
     <Compile Remove="P3\P3T6.cs" />
@@ -19,6 +20,7 @@
     <None Include="P2\P2T3.cs" />
     <None Include="P2\P2T2.cs" />
     <None Include="P2\P2T1.cs" />
+    <None Include="P3\P3T1.cs" />
     <None Include="P3\P3T4.cs" />
     <None Include="P3\P3T5.cs" />
     <None Include="P3\P3T6.cs" />
