@@ -1,9 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Csharp_udemy1</RootNamespace>
+    <RootNamespace>Udemy_CSharp_OOP</RootNamespace>
     <StartupObject>Solution</StartupObject>
   </PropertyGroup>
 
