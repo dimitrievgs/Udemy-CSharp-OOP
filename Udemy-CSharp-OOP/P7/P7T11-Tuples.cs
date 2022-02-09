@@ -13,7 +13,6 @@ namespace P7T11
             PlayersList list = new PlayersList();
             var playerOne = (7, "Виктор Онопко", 40);
             var playerTwo = (16, "Вячеслав Малафеев", -432);
-            var playerThree = (7, "Виктор Онопко", 40);
             list.Add(playerOne);
             list.Show();
             list.Add(playerTwo, 1);
