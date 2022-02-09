@@ -4,30 +4,11 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Csharp_udemy1</RootNamespace>
+    <StartupObject>Solution</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="P2\P2T1.cs" />
-    <Compile Remove="P2\P2T2.cs" />
-    <Compile Remove="P2\P2T3.cs" />
     <Compile Remove="P3\P3T1.cs" />
-    <Compile Remove="P3\P3T4.cs" />
-    <Compile Remove="P3\P3T5.cs" />
-    <Compile Remove="P3\P3T6.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="P2\P2T3.cs" />
-    <None Include="P2\P2T2.cs" />
-    <None Include="P2\P2T1.cs" />
-    <None Include="P3\P3T1.cs" />
-    <None Include="P3\P3T4.cs" />
-    <None Include="P3\P3T5.cs" />
-    <None Include="P3\P3T6.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="P4\" />
   </ItemGroup>
 
 </Project>
