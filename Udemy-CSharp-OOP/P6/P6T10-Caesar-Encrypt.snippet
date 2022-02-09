@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Caesar Encrypt Snippet</Title>
+			<Shortcut>cencrypt</Shortcut>
+			<Description>Code snippet for Caesar Encrypt</Description>
+			<Author>Dimitriev G.</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Code Language="csharp">
+        <![CDATA[public static string Encrypt(string plainText, int shift)
+        {
+            return ShiftText(plainText, shift);
+        }
+
+        public static string Decrypt(string cipherText, int shift)
+        {
+            return ShiftText(cipherText, -shift);
+        }
+
+        private static string ShiftText(string text, int shift)
+        {
+            char[] inputArray = text.ToCharArray();
+            char[] outputArray = new char[text.Length];
+            for (int i = 0; i < inputArray.Length; i++)
+            {
+                char c = inputArray[i];
+                if (char.IsLetter(c))
+                {
+                    char shiftedC = (char)(char.ToLower(c) + shift);
+                    c = (char)(c + shift);
+                    if (shiftedC > 'z')
+                        c = (char)(c - 26);
+                    else if (shiftedC < 'a')
+                        c = (char)(c + 26);
+                }
+                outputArray[i] = c;
+            }
+            return string.Concat(outputArray);
+        }]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
