@@ -7,6 +7,6 @@ public class Solution
 {
     public static void Main(string[] args)
     {
-        P7T12.Solution.Main(args);
+        P9T22.Solution.Main(args);
     }
 }
