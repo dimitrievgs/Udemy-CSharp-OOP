@@ -5,8 +5,7 @@ using System.Linq;
 
 public class Solution
 {
-    public static void 
-        Main(string[] args)
+    public static void Main(string[] args)
     {
         P10T24.Solution.Main(args);
     }
