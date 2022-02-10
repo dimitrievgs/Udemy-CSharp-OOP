@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="P3\P3T1.cs" />
+    <Compile Remove="P03\P3T1.cs" />
   </ItemGroup>
 
 </Project>
